@@ -1,6 +1,6 @@
 # Layer-Zero-Wallets-Info
 
-Add wallets addresses to wallets.txt 1 line 1 wallets
+Add wallets addresses to wallets.txt 1 line 1 wallet
 
 Download the csv of this dune query: https://dune.com/queries/2681615 and put it in the same directory as lz.py script.
 Rename the sheet to: lz.csv 
