@@ -1,9 +1,11 @@
-# Layer-Zero-Wallets-Info
+1: Adding Wallet Addresses
+Start by inserting the wallet addresses into a file named wallets.txt, where each line contains a single wallet address.
 
-Add wallets addresses to wallets.txt 1 line 1 wallet
+2: Downloading and Renaming Dune Query CSV File
+Next, visit the following URL: https://dune.com/queries/2681615. Download the CSV file associated with this Dune query and store it in the same directory as your lz.py script. Once done, rename the CSV file to lz.csv.
 
-Download the csv of this dune query: https://dune.com/queries/2681615 and put it in the same directory as lz.py script.
-Rename the sheet to: lz.csv 
+3: Running the Script
+Now, execute the lz.py script. As a result, you will obtain two separate sheets: one with wallet information and another with wallet similarities.
 
-Run the script. You will get one sheet with wallet info and another with wallet similarities. You can regulate the amount of similarities wallets needs to have to be put on the second sheet on the 98's line of the lz.py file.
-
+4: Adjusting Wallet Similarity Parameters
+If you want to alter the number of similarities a wallet must have to be included in the second sheet, you can do so by modifying line 98 in the lz.py script.
